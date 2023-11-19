@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Your Scan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="C:\project\pnemeooo\DALL·E 2023-10-07 23.53.17 - Photo of a sharp and modern logo that combines an anatomically accurate depiction of a lung in soft gray hues with a clear magnifying glass superimpos.png" alt="Pneumonia Detection Logo" id="logo">
+    </header>
+
+    <main>
+        <h2>Upload Your Scan</h2>
+        <p>Please select the scan image:</p>
+        <!-- ... rest of the code ... -->
+<form action="path_to_your_server_processing_script" method="post" enctype="multipart/form-data">
+    <div class="file-upload-wrapper">
+        <input type="file" name="scanImage" id="scanImage" accept="image/*" required>
+        <label for="scanImage" class="file-upload-label">Choose File</label>
+        <span id="file-name">No file chosen</span>
+    </div>
+    <input type="submit" value="Upload Scan" class="upload-btn">
+</form>
+<!-- ... rest of the code ... -->
+
+        </form>
+    </main>
+</body>
+</html>
